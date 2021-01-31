@@ -44,7 +44,7 @@ form#formulario fieldset div#dados p{
     font: bolder 18pt arial;
 }
 
-form#formulario fieldset div#dados button{
+form#formulario fieldset div#dados input#enviar{
     padding: 3pt;
     font: bolder 14pt arial;
     color: aliceblue;

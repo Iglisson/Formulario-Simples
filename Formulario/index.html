@@ -9,21 +9,21 @@
 <body>
     <h1 id="titulo">Cadastro de Usuário</h1>
 
-    <form id="formulario">
+    <form id="formulario" name="formulario">
         <fieldset >
             <legend id="nomeformulario">Informações</legend>
             <div id="dados">
-                <p>Nome: <input type="text" id="txtnome" required></p>
+                <p>Nome: <input type="text" name="nome" required></p>
                 
-                <p>Email: <input type="email" id="txtemail" required></p>
+                <p>Email: <input type="email" name="email" required></p>
                 
-                <p>Senha: <input type="password" id="txtsenha" required></p>
+                <p>Senha: <input type="password" name="senha" required></p>
                 
-                <p>Confirme sua senha: <input type="password" id="txtsenha2" required></p>
+                <p>Confirme sua senha: <input type="password" name="senha2" required></p>
 
-                <p>Data do nascimento: <input type="date"></p>
+                <!-- <p>Data do nascimento: <input type="date" name="datanascimento"></p> -->
                 <br>
-                <p><button id="enviar" onclick="enviarFormulario()">Enviar</button></p>
+                <p><input type="submit" value="Enviar" id="enviar" onclick="return enviarFormulario()"></p>
             </div>
         </fieldset>
     </form>
