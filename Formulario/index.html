@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="_CSS/style.css">
 </head>
 <body>
-    <h1>Cadastro de Usuário</h1>
+    <h1 id="titulo">Cadastro de Usuário</h1>
 
     <form id="formulario">
-        <fieldset>
+        <fieldset >
             <legend id="nomeformulario">Informações</legend>
             <div id="dados">
                 <p>Nome: <input type="text" id="txtnome" required></p>
                 
-                <p>Email: <input type="password" id="txtemail" required></p>
+                <p>Email: <input type="email" id="txtemail" required></p>
                 
                 <p>Senha: <input type="password" id="txtsenha" required></p>
                 
                 <p>Confirme sua senha: <input type="password" id="txtsenha2" required></p>
 
+                <p>Data do nascimento: <input type="date"></p>
+                <br>
                 <p><button id="enviar" onclick="enviarFormulario()">Enviar</button></p>
             </div>
         </fieldset>
